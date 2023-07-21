@@ -1,0 +1,4 @@
+name = "PyCallJLD2"
+uuid = "07b0ad8c-101f-43fe-82b6-eff101a491e1"
+authors = ["Sasha Petrenko <sap625@umsystem.edu>"]
+version = "0.1.0"
