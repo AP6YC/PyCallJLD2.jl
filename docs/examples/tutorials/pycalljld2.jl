@@ -1,6 +1,6 @@
 # ---
 # title: PyCallJLD2 Tutorial
-# id: julia
+# id: pycalljld2
 # date: 2023-7-21
 # cover: ../assets/julialang_logo_icon.png
 # author: "[Sasha Petrenko](https://github.com/AP6YC)"
@@ -15,6 +15,12 @@
 
 # ## Setup
 
+# First, you must have your `PyCall` environment setup in the correct way.
+# Here, we will point to the default Python installation internal to Julia
+ENV["PYTHON"] = ""
+using Pkg
+Pkg.build("PyCall")
+
 # To use the package, you must load `PyCall`, `JLD2`, and `PyCallJLD2`:
 
 ## Load the modules into the current context
@@ -23,24 +29,33 @@ using
     JLD2,       # for saving and loading
     PyCallJLD2  # for telling JLD2 how to save and load PyObjects
 
-# ## Create some PyObjects
-
-# First, you must have your `PyCall` environment setup in the correct way.
-# Here, we will point to the default Python installation internal to Julia
-ENV["PYTHON"] = ""
+# ## Create some `PyObject`s
 
 # Next, we load a scikit-learn module with the `@pyimport` macro
 @pyimport sklearn.linear_model as lm
 
 # We can finally create some Python objects:
 m1 = lm.LinearRegression()
+
 # and
 m2 = lm.ARDRegression()
 
-# ## Save the Objects
+# ## Save and Load
+
+# We should first declare where we are saving the file rather than typing it out repeatedly:
+model_file = "models.jld2"
 
 # To save, we use the normal `JLD2.save` usage:
-JLD2.save("models.jld2", "mods", [m1, m2])
+JLD2.save(model_file, "mods", [m1, m2])
 
 # To load, we also use the normal `JLD2.load` usage:
-models = JLD2.load("models.jld2", "mods")
+models = JLD2.load(model_file, "mods")
+
+# And voila!
+# We have back our two models, ready for use.
+
+# !!! note
+#     When loading the object, you must be sure that the definition for the unpacked data are in the current workspace (i.e., if you change terminal sessions here, you must remember to reimport `@pyimport sklearn.linear_model as lm` before loading the model file).
+
+# For the sake of this script, we will clean up after ourselves and remove the model:
+rm(model_file)
