@@ -2,6 +2,21 @@
 
 This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], implementing a serializer for saving and loading [PyCall][pycall] [`PyObject`][pyobject-readme]s with JLD2.
 
+| **Documentation** |
+|:-----------------:|
+| [![Dev][docs-dev-img]][docs-dev-url] |
+| [![Stable][docs-stable-img]][docs-stable-url] |
+| [![Documentation][doc-status-img]][doc-status-url]|
+
+[docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[docs-stable-url]: https://AP6YC.github.io/PyCallJLD2.jl/stable
+
+[docs-dev-img]: https://img.shields.io/badge/docs-dev-blue.svg
+[docs-dev-url]: https://AP6YC.github.io/PyCallJLD2.jl/dev
+
+[doc-status-img]: https://github.com/AP6YC/PyCallJLD2.jl/actions/workflows/Documentation.yml/badge.svg
+[doc-status-url]: https://github.com/AP6YC/PyCallJLD2.jl/actions/workflows/Documentation.yml
+
 [pyobject-readme]: https://github.com/JuliaPy/PyCall.jl#pyobject
 [pycall]: https://github.com/JuliaPy/PyCall.jl
 [jld]: https://github.com/JuliaIO/JLD.jl/
