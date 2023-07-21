@@ -2,6 +2,8 @@
 
 This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], implementing a serializer for saving and loading [PyCall][pycall] [`PyObject`][pyobject-readme]s with JLD2.
 
+Please see the official [documentation][docs-dev-url] for usage and contribution guidelines.
+
 | **Documentation** |
 |:-----------------:|
 | [![Dev][docs-dev-img]][docs-dev-url] |
@@ -32,6 +34,7 @@ This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], im
   - [Attribution](#attribution)
     - [Authors](#authors)
     - [Packages](#packages)
+    - [License](#license)
 
 ## Usage
 
@@ -72,3 +75,7 @@ The following authors are responsible for authoring this package:
 
 This package is heavily based upon the [`PyCallJLD.jl`][pycalljld] package; the funky-monkey-wrenching of PyCall `ccall`s, pointers, and other low-level tomfoolery would have been arcane and indecipherable without this prior work.
 This package merely modifies its internal usage to match the modified [`JLD2`][jld2] API for custom serialization.
+
+### License
+
+This package uses the [MIT License](LICENSE).

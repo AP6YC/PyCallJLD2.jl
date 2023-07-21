@@ -1,10 +1,14 @@
-# PyCallJLD2.jl
-
 ```@meta
 DocTestSetup = quote
     using PyCallJLD2, Dates
 end
 ```
+
+# PyCallJLD2.jl
+
+---
+
+These pages serve as the official documentation for the `PyCallJLD2.jl` Julia package.
 
 Documentation for PyCallJLD2.jl
 
