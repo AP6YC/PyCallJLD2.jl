@@ -1,7 +1,27 @@
 # [Package Guide](@id package-guide)
 
 To save and load `JLD2`, load `PyCall`, `JLD2`, and `PyCallJLD2` in the same scope as where you intend to use the `JLD2.save` and `JLD2.load` functions.
-If you are coming from `PyCallJLD`, simply replace `JLD` with `JLD2` everywhere in your usage.
+If you are coming from `PyCallJLD`, simply replace `JLD` with `JLD2` everywhere in your usage:
+
+```julia
+# Import all of your dependencies
+import PyCall, JLD2, PyCallJLD2
+```
+
+and use the `JLD2` API to save:
+
+```julia
+JLD2.save("model_file.jld2", "model_name", model)
+```
+
+or load:
+
+```julia
+JLD2.load("model_file.jld2", "model_name")
+```
+
+!!! note
+    When loading the model back, you must be sure that the definition for the unpacked data is in the current workspace (i.e., if you change terminal sessions here, you must remember to reimport `@pyimport ...` before loading the model file).
 
 The following example is take from [PyCallJLD](https://github.com/JuliaPy/PyCallJLD.jl) for direct comparison:
 

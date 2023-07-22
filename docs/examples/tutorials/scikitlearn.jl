@@ -89,7 +89,7 @@ score_1 == score_2
 # The answers are the same because we retained the stateful information of the pipeline during saving and loading.
 
 # !!! note
-#     When loading the object, you must be sure that the definition for the unpacked data are in the current workspace (i.e., if you change terminal sessions here, you must remember to reimport `@pyimport sklearn.linear_model as lm` before loading the model file).
+#     When loading the object, you must be sure that the definition for the unpacked data is in the current workspace (i.e., if you change terminal sessions here, you must remember to reimport `@sk_import ...` before loading the model file).
 
 # For the sake of this script, we will clean up after ourselves and remove the model:
 rm(model_file)

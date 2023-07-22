@@ -16,6 +16,7 @@ These pages serve as the official documentation for the `PyCallJLD2.jl` Julia pa
 
 The purpose of this package is to provide an interface for saving [`PyCall.PyObject`](https://github.com/JuliaPy/PyCall.jl)s with [`JLD2`](https://github.com/JuliaIO/JLD2.jl).
 Please see the [Package Guide](@ref package-guide) for usage, and check out the [Examples](@ref examples) page to see this usage in action with `PyCall.jl` and `ScikitLearn.jl`.
+If you wish to contribute to the project, please see the [Contributing](@ref) guide.
 
 This project is heavily inspired by [`PyCallJLD`](https://github.com/JuliaPy/PyCallJLD.jl).
 

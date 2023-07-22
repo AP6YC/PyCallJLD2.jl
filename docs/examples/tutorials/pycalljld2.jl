@@ -56,7 +56,7 @@ models = JLD2.load(model_file, "mods")
 # We have back our two models, ready for use.
 
 # !!! note
-#     When loading the object, you must be sure that the definition for the unpacked data are in the current workspace (i.e., if you change terminal sessions here, you must remember to reimport `@pyimport sklearn.linear_model as lm` before loading the model file).
+#     When loading the object, you must be sure that the definition for the unpacked data is in the current workspace (i.e., if you change terminal sessions here, you must remember to reimport `@pyimport sklearn.linear_model as lm` before loading the model file).
 
 # For the sake of this script, we will clean up after ourselves and remove the model:
 rm(model_file)
