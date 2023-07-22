@@ -8,7 +8,7 @@ From top to bottom, the ways of contributing are:
 - [GitFlow:](@ref GitFlow) how to directly contribute code to the package in an organized way on GitHub.
 - [Development Details:](@ref Development-Details) how the internals of the package are currently setup if you would like to directly contribute code.
 
-Please also see the [Attribution](@ref Attribution) to learn about the authors and sources of support for the project.
+Please also see the [Attribution](@ref attribution) to learn about the authors and sources of support for the project.
 
 ## Issues
 
@@ -99,16 +99,3 @@ PyCallJLD2
 ├── Project.toml            // Julia: the Pkg.jl dependencies of the project.
 └── README.md               // Doc: the top-level readme for the project.
 ```
-
-## Attribution
-
-### Authors
-
-This package is developed and maintained by [Sasha Petrenko](https://github.com/AP6YC) with sponsorship by the [Applied Computational Intelligence Laboratory (ACIL)](https://acil.mst.edu/).
-
-If you simply have suggestions for improvement, Sasha Petrenko (<petrenkos@mst.edu>) is the current developer and maintainer of the `PyCallJLD2` package, so please feel free to reach out with thoughts and questions.
-
-### Package
-
-This package is heavily based upon the [`PyCallJLD.jl`](https://github.com/JuliaPy/PyCallJLD.jl) package; the funky-monkey-wrenching of PyCall `ccall`s, pointers, and other low-level tomfoolery would have been arcane and indecipherable without this prior work.
-This package merely modifies its internal usage to match the modified [`JLD2`](https://github.com/JuliaIO/JLD2.jl) API for custom serialization.

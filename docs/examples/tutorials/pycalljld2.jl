@@ -21,7 +21,8 @@ ENV["PYTHON"] = ""
 using Pkg
 Pkg.build("PyCall")
 
-# To use the package, you must load `PyCall`, `JLD2`, and `PyCallJLD2`:
+# Next, we load our dependencies.
+# To use this package, you must load `PyCall`, `JLD2`, and `PyCallJLD2` in the context that you intend to do model saving and loading:
 
 ## Load the modules into the current context
 using

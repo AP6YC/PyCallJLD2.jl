@@ -8,7 +8,7 @@ This section contains some examples using the `PyCallJLD2.jl` package with topic
 
 ---
 
-## Attribution
+## [Attribution](@id examples-attribution)
 
 The images for the demo card thumbails are borrowed from the following:
 
