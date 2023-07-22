@@ -40,17 +40,20 @@ using
 # Package version constant
 include("version.jl")
 
+# DocStringExtensions templates, etc.
+include("docstrings.jl")
+
 # -----------------------------------------------------------------------------
 # CONSTANTS
 # -----------------------------------------------------------------------------
 
 """
-Pointer to the correct dumps object.
+Pointer to the correct Python pickle `dumps` object.
 """
 const dumps = PyNULL()
 
 """
-Pointer to the correct loads object.
+Pointer to the correct Python pickle `loads` object.
 """
 const loads = PyNULL()
 
