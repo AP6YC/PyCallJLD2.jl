@@ -1,6 +1,6 @@
 # ---
 # title: PyCallJLD2 Tutorial
-# id: pycalljld2
+# id: pycalljld2-tutorial
 # date: 2023-7-21
 # cover: ../assets/julialang_logo_icon.png
 # author: "[Sasha Petrenko](https://github.com/AP6YC)"
