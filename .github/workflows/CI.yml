@@ -23,7 +23,7 @@ jobs:
           - windows-latest
         arch:
           - x64
-          # - x86
+          - x86
         exclude:
           # Exclude 32-bit macOS due to Julia support
           - os: macOS-latest
@@ -61,6 +61,8 @@ jobs:
             ${{ runner.os }}-${{ matrix.arch }}-test-
             ${{ runner.os }}-${{ matrix.arch }}-
             ${{ runner.os }}-
+      - name: Install scikit-learn
+        run: pip install scikit-learn
       - uses: julia-actions/julia-buildpkg@latest
       - run: |
           git config --global user.name Tester
