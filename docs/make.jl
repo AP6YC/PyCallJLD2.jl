@@ -77,14 +77,16 @@ makedocs(
     ),
     pages=[
         "Home" => "index.md",
-        "Tutorial" => [
+        "Manual" => [
             "Guide" => "man/guide.md",
             demopage,
+        ],
+        "Internals" => [
             # "Examples" => "man/examples.md",
             # "Modules" => "man/modules.md",
-            "Contributing" => "man/contributing.md",
             "Index" => "man/full-index.md",
-            "Internals" => "man/dev-index.md",
+            "Dev Index" => "man/dev-index.md",
+            "Contributing" => "man/contributing.md",
         ],
     ],
     repo="https://github.com/AP6YC/PyCallJLD2.jl/blob/{commit}{path}#L{line}",

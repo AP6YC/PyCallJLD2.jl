@@ -1,6 +1,6 @@
 # Contributing
 
-This page serves as the contribution guide for the `PyCallJLD2` package.
+This page serves as the contribution guide for the `PyCallJLD2.jl` package.
 From top to bottom, the ways of contributing are:
 
 - [GitHub Issues:](@ref Issues) how to raise an issue with the project.
@@ -62,7 +62,7 @@ julia> ]
 
 ## GitFlow
 
-The `PyCallJLD2` package follows the [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/) git working model.
+The `PyCallJLD2.jl` package follows the [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/) git working model.
 The [original post](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen outlines this methodology quite well, while [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) has a good tutorial as well.
 In summary:
 
@@ -82,10 +82,10 @@ They are setup to be built and served in a separate branch called `gh-pages` fro
 
 ### Package Structure
 
-The `PyCallJLD2` project has the following file structure:
+The `PyCallJLD2.jl` project has the following file structure:
 
 ```console
-PyCallJLD2
+PyCallJLD2.jl
 ├── .github/workflows       // GitHub: workflows for testing and documentation.
 ├── docs                    // Docs: documentation for the module.
 │   └───src                 //      Documentation source files.

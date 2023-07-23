@@ -32,7 +32,7 @@ Pages = [
     "../examples/index.md",
     "man/contributing.md",
     "man/full-index.md",
-    "man/dev-index.md"
+    "man/dev-index.md",
 ]
 Depth = 1
 ```
