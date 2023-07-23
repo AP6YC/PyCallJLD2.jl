@@ -6,11 +6,11 @@ This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], im
 
 Please see the official [documentation][docs-dev-url] for usage and contribution guidelines.
 
-| **Documentation** |
-|:-----------------:|
-| [![Dev][docs-dev-img]][docs-dev-url] |
-| [![Stable][docs-stable-img]][docs-stable-url] |
-| [![Documentation][doc-status-img]][doc-status-url]|
+| **Documentation** | **Testing Status** |
+|:-----------------:|:------------------:|
+| [![Dev][docs-dev-img]][docs-dev-url] | [![CI Status][ci-img]][ci-url]|
+| [![Stable][docs-stable-img]][docs-stable-url] | [![Coveralls][coveralls-img]][coveralls-url] |
+| [![Documentation][doc-status-img]][doc-status-url]| [![Codecov][codecov-img]][codecov-url]|
 
 [docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
 [docs-stable-url]: https://AP6YC.github.io/PyCallJLD2.jl/stable
@@ -20,6 +20,15 @@ Please see the official [documentation][docs-dev-url] for usage and contribution
 
 [doc-status-img]: https://github.com/AP6YC/PyCallJLD2.jl/actions/workflows/Documentation.yml/badge.svg
 [doc-status-url]: https://github.com/AP6YC/PyCallJLD2.jl/actions/workflows/Documentation.yml
+
+[ci-img]: https://github.com/AP6YC/PyCallJLD2.jl/workflows/CI/badge.svg
+[ci-url]: https://github.com/AP6YC/PyCallJLD2.jl/actions?query=workflow%3ACI
+
+[codecov-img]: https://codecov.io/gh/AP6YC/PyCallJLD2.jl/branch/main/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/AP6YC/PyCallJLD2.jl
+
+[coveralls-img]: https://coveralls.io/repos/github/AP6YC/PyCallJLD2.jl/badge.svg?branch=main
+[coveralls-url]: https://coveralls.io/github/AP6YC/PyCallJLD2.jl?branch=main
 
 [pyobject-readme]: https://github.com/JuliaPy/PyCall.jl#pyobject
 [pycall]: https://github.com/JuliaPy/PyCall.jl
@@ -39,6 +48,8 @@ Please see the official [documentation][docs-dev-url] for usage and contribution
     - [License](#license)
 
 ## Usage
+
+Please see the [documentation][docs-dev-url] for full usage.
 
 To save and load `JLD2`, load `PyCall`, `JLD2`, and `PyCallJLD2` in the same scope as where you intend to use the `JLD2.save` and `JLD2.load` functions.
 If you are coming from `PyCallJLD`, simply replace `JLD` with `JLD2` everywhere in your usage.

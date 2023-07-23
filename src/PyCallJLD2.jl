@@ -6,10 +6,14 @@ Definition of the `PyCallJLD2.jl` package module.
 
 # Authors
 - Sasha Petrenko <petrenkos@mst.edu>
+
+# Packages
+This package is inspired by and built off of the work at PyCallJLD.jl:
+https://github.com/JuliaPy/PyCallJLD.jl
 """
 
 """
-A module encapsulating the experimental driver code for the OAR project.
+The top-level module for the `PyCallJLD2.jl` package.
 
 # Imports
 
@@ -40,17 +44,20 @@ using
 # Package version constant
 include("version.jl")
 
+# DocStringExtensions templates, etc.
+include("docstrings.jl")
+
 # -----------------------------------------------------------------------------
 # CONSTANTS
 # -----------------------------------------------------------------------------
 
 """
-Pointer to the correct dumps object.
+Pointer to the correct Python pickle `dumps` object.
 """
 const dumps = PyNULL()
 
 """
-Pointer to the correct loads object.
+Pointer to the correct Python pickle `loads` object.
 """
 const loads = PyNULL()
 
@@ -88,7 +95,7 @@ function __init__()
 end
 
 """
-Definition of the reentrant lock for PyCall functions
+Definition of the reentrant lock for PyCall functions.
 """
 pylock(f::Function) = Base.lock(f, PYLOCK[])
 
