@@ -1,6 +1,6 @@
 # [Index](@id main-index)
 
-This page lists the core methods and types of the `Julia` component of the `PyCallJLD2` project.
+This page lists the core functions and types of the `Julia` component of the `PyCallJLD2.jl` package.
 
 ## ["Table" of Contents](@id index-toc)
 
@@ -9,7 +9,7 @@ This page lists the core methods and types of the `Julia` component of the `PyCa
 | [Index](@ref index-modules) | [Index](@ref index-functions) | [Index](@ref index-types) | [Index](@ref index-constants) |
 | [Docs](@ref index-modules-docs) | [Docs](@ref index-functions-docs) | [Docs](@ref index-types-docs) | [Docs](@ref index-constants-docs) |
 
-## Index
+## [Index](@id index)
 
 This section enumerates the names exported by the package, each of which links to its corresponding [Documentation](@ref index-docs).
 
