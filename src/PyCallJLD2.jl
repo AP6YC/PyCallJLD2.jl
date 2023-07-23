@@ -36,6 +36,7 @@ module PyCallJLD2
 # Full usings (which supports comma-separated import notation)
 using
     DocStringExtensions,    # Docstring macros, etc.
+    Pkg,                    # For version.jl (Pkg.TOML.parsefile)
     PyCall,                 # PyObject, pyimport, etc.
     JLD2                    # For overloading writeas, wconvert, and rconvert
 
