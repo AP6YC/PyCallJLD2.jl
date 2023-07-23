@@ -2,12 +2,12 @@
 
 This page lists the core methods and types of the `Julia` component of the `PyCallJLD2` project.
 
-## Table of Contents
+## ["Table" of Contents](@id index-toc)
 
-- **Modules**: [Index](@ref index-modules), [Docs](@ref index-modules-docs)
-- **Functions**: [Index](@ref index-functions), [Docs](@ref index-functions-docs)
-- **Types**: [Index](@ref index-types), [Docs](@ref index-types-docs)
-- **Constants**: [Index](@ref index-constants), [Docs](@ref index-constants-docs)
+| **Modules** | **Functions** | **Types** | **Constants** |
+|:-----------:|:-------------:|:---------:|:-------------:|
+| [Index](@ref index-modules) | [Index](@ref index-functions) | [Index](@ref index-types) | [Index](@ref index-constants) |
+| [Docs](@ref index-modules-docs) | [Docs](@ref index-functions-docs) | [Docs](@ref index-types-docs) | [Docs](@ref index-constants-docs) |
 
 ## Index
 
