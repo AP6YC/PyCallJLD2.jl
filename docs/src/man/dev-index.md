@@ -5,16 +5,31 @@ Because they are not part of the public API, these names might change relatively
 
 All internal names are listed in the [Index](@ref dev-index-methods), and each of these entries link to the docstrings in the [Docs](@ref dev-index-docs) section.
 
+## Table of Contents
+
+- **Modules**: [Index](@ref dev-index-modules), [Docs](@ref dev-index-modules-docs)
+- **Functions**: [Index](@ref dev-index-functions), [Docs](@ref dev-index-functions-docs)
+- **Types**: [Index](@ref dev-index-types), [Docs](@ref dev-index-types-docs)
+- **Constants**: [Index](@ref dev-index-constants), [Docs](@ref dev-index-constants-docs)
+
 ## Index
 
 This section contains a list of internal names that link to their corresponding [Documentation](@ref dev-index-docs).
 
-### [Methods](@id dev-index-methods)
+### [Modules](@id dev-index-modules)
 
 ```@index
 Pages   = ["dev-index.md"]
 Modules = [PyCallJLD2]
-Order = [:function]
+Order   = [:module]
+```
+
+### [Functions](@id dev-index-functions)
+
+```@index
+Pages   = ["dev-index.md"]
+Modules = [PyCallJLD2]
+Order   = [:function]
 ```
 
 ### [Types](@id dev-index-types)
@@ -22,22 +37,49 @@ Order = [:function]
 ```@index
 Pages   = ["dev-index.md"]
 Modules = [PyCallJLD2]
-Order = [:type]
+Order   = [:type]
 ```
 
-### [Constants](@id dev-index-types)
+### [Constants](@id dev-index-constants)
 
 ```@index
 Pages   = ["dev-index.md"]
 Modules = [PyCallJLD2]
-Order = [:constant]
+Order   = [:constant]
 ```
 
 ## [Docs](@id dev-index-docs)
 
 Documentation for all internal names are listed below.
 
+### [Modules](@id dev-index-modules-docs)
+
 ```@autodocs
 Modules = [PyCallJLD2]
-Public = false
+Public  = false
+Order   = [:module]
+```
+
+### [Functions](@id dev-index-functions-docs)
+
+```@autodocs
+Modules = [PyCallJLD2]
+Public  = false
+Order   = [:function]
+```
+
+### [Types](@id dev-index-types-docs)
+
+```@autodocs
+Modules = [PyCallJLD2]
+Public  = false
+Order   = [:type]
+```
+
+### [Constants](@id dev-index-constants-docs)
+
+```@autodocs
+Modules = [PyCallJLD2]
+Public  = false
+Order   = [:constant]
 ```

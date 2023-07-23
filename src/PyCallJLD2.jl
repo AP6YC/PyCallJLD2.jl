@@ -10,8 +10,7 @@ Definition of the `PyCallJLD2.jl` package module.
 - Sasha Petrenko <petrenkos@mst.edu>
 
 ## Packages
-This package is inspired by and built off of the work at PyCallJLD.jl:
-https://github.com/JuliaPy/PyCallJLD.jl
+This package is inspired by and built off of the work at [`PyCallJLD.jl`](https://github.com/JuliaPy/PyCallJLD.jl).
 """
 
 """

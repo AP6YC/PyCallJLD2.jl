@@ -2,6 +2,13 @@
 
 This page lists the core methods and types of the `Julia` component of the `PyCallJLD2` project.
 
+## Table of Contents
+
+- **Modules**: [Index](@ref index-modules), [Docs](@ref index-modules-docs)
+- **Functions**: [Index](@ref index-functions), [Docs](@ref index-functions-docs)
+- **Types**: [Index](@ref index-types), [Docs](@ref index-types-docs)
+- **Constants**: [Index](@ref index-constants), [Docs](@ref index-constants-docs)
+
 ## Index
 
 This section enumerates the names exported by the package, each of which links to its corresponding [Documentation](@ref index-docs).
@@ -11,15 +18,15 @@ This section enumerates the names exported by the package, each of which links t
 ```@index
 Pages   = ["full-index.md"]
 Modules = [PyCallJLD2]
-Order = [:module]
+Order   = [:module]
 ```
 
-### [Methods](@id index-methods)
+### [Functions](@id index-functions)
 
 ```@index
 Pages   = ["full-index.md"]
 Modules = [PyCallJLD2]
-Order = [:function]
+Order   = [:function]
 ```
 
 ### [Types](@id index-types)
@@ -27,7 +34,7 @@ Order = [:function]
 ```@index
 Pages   = ["full-index.md"]
 Modules = [PyCallJLD2]
-Order = [:type]
+Order   = [:type]
 ```
 
 ### [Constants](@id index-constants)
@@ -35,7 +42,7 @@ Order = [:type]
 ```@index
 Pages   = ["full-index.md"]
 Modules = [PyCallJLD2]
-Order = [:constant]
+Order   = [:constant]
 ```
 
 ## [Docs](@id index-docs)
@@ -47,7 +54,7 @@ This section lists the documentation for every exported name of the `PyCallJLD2`
 ```@autodocs
 Modules = [PyCallJLD2]
 Private = false
-Order = [:module]
+Order   = [:module]
 ```
 
 ### [Functions](@id index-functions-docs)
@@ -55,7 +62,7 @@ Order = [:module]
 ```@autodocs
 Modules = [PyCallJLD2]
 Private = false
-Order = [:function]
+Order   = [:function]
 ```
 
 ### [Types](@id index-types-docs)
@@ -63,7 +70,7 @@ Order = [:function]
 ```@autodocs
 Modules = [PyCallJLD2]
 Private = false
-Order = [:type]
+Order   = [:type]
 ```
 
 ### [Constants](@id index-constants-docs)
@@ -71,5 +78,5 @@ Order = [:type]
 ```@autodocs
 Modules = [PyCallJLD2]
 Private = false
-Order = [:constant]
+Order   = [:constant]
 ```
