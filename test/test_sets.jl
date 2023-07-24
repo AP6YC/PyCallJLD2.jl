@@ -37,23 +37,29 @@ Pkg.build("PyCall")
 const lm = PyNULL()
 copy!(lm, pyimport_conda("sklearn.linear_model", "sklearn"))
 
-@testset "PyCall" begin
-    # Import some modules
-    # @pyimport sklearn.linear_model as lm
-
+@testset "PyCall Save and Load" begin
     # Create some PyObjects
     m1 = lm.LinearRegression()
     m2 = lm.ARDRegression()
 
-    # Modle name
+    # Model name
     model_file = "models.jld2"
 
-    # Save
-    JLD2.save(model_file, "mods", [m1, m2])
+    # Wrap saving and loading to make sure of cleanup
+    try
+        # Save
+        JLD2.save(model_file, "mods", [m1, m2])
 
-    # Load
-    models = JLD2.load(model_file, "mods")
+        # Load
+        models = JLD2.load(model_file, "mods")
+        # Test assertions
+        @assert typeof(models) == typeof([m1, m2])
+        @assert typeof(models[1]) == typeof(m1)
+        @assert typeof(models[2]) == typeof(m2)
 
-    # Cleanup
-    rm(model_file)
+    finally
+        # Cleanup
+        rm(model_file)
+
+    end
 end

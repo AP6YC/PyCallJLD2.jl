@@ -6,11 +6,10 @@ This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], im
 
 Please see the official [documentation][docs-dev-url] for usage and contribution guidelines.
 
-| **Documentation** | **Testing Status** |
-|:-----------------:|:------------------:|
-| [![Dev][docs-dev-img]][docs-dev-url] | [![CI Status][ci-img]][ci-url]|
-| [![Stable][docs-stable-img]][docs-stable-url] | [![Coveralls][coveralls-img]][coveralls-url] |
-| [![Documentation][doc-status-img]][doc-status-url]| [![Codecov][codecov-img]][codecov-url]|
+| **Documentation** | **Coverage** | **CI Status** |
+|:-----------------:|:------------:|:-------------:|
+| [![Dev][docs-dev-img]][docs-dev-url] | [![Codecov][codecov-img]][codecov-url] | [![CI Status][ci-img]][ci-url] |
+| [![Stable][docs-stable-img]][docs-stable-url] | [![Coveralls][coveralls-img]][coveralls-url] | [![Documentation][doc-status-img]][doc-status-url] |
 
 [docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
 [docs-stable-url]: https://AP6YC.github.io/PyCallJLD2.jl/stable
