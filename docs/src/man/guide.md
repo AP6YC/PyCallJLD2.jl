@@ -1,5 +1,36 @@
 # [Package Guide](@id package-guide)
 
+To work with the `PyCallJLD2.jl` package, you should know:
+
+- [How to install the package](@ref installation)
+- [How to use the package](@ref basic-usage)
+
+## [Installation](@id installation)
+
+The `PyCallJLD2.jl` package can be installed using the Julia package manager.
+From the Julia REPL, type `]` to enter the Pkg REPL mode and run
+
+```julia-repl
+julia> ]
+(@v1.9) pkg> add PyCallJLD2
+```
+
+Alternatively, it can be added to your environment in a script with
+
+```julia
+using Pkg
+Pkg.add("PyCallJLD2")
+```
+
+If you wish to have the latest changes between releases, you can directly add the GitHub repo at an arbitrary branch (such as `develop`) as a dependency with
+
+```julia-repl
+julia> ]
+(@v1.9) pkg> add https://github.com/AP6YC/PyCallJLD2.jl#develop
+```
+
+## [Basic Usage](@id basic-usage)
+
 To save and load `JLD2`, load `PyCall`, `JLD2`, and `PyCallJLD2` in the same scope as where you intend to use the `JLD2.save` and `JLD2.load` functions.
 If you are coming from `PyCallJLD`, simply replace `JLD` with `JLD2` everywhere in your usage:
 
