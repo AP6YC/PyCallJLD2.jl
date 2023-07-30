@@ -1,6 +1,4 @@
-# PyCallJLD2.jl
-
-[![pycalljld2-header](docs/src/assets/logo.png)][docs-dev-url]
+[![pycalljld2-header](https://github.com/AP6YC/FileStorage/blob/main/PyCallJLD2/header.png?raw=true)][docs-dev-url]
 
 This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], implementing a serializer for saving and loading [PyCall][pycall] [`PyObject`][pyobject-readme]s with JLD2.
 
@@ -38,13 +36,12 @@ Please see the official [documentation][docs-dev-url] for usage and contribution
 
 ## Table of Contents
 
-- [PyCallJLD2.jl](#pycalljld2jl)
-  - [Table of Contents](#table-of-contents)
-  - [Usage](#usage)
-  - [Attribution](#attribution)
-    - [Authors](#authors)
-    - [Packages](#packages)
-    - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Usage](#usage)
+- [Attribution](#attribution)
+  - [Authors](#authors)
+  - [Packages](#packages)
+  - [License](#license)
 
 ## Usage
 

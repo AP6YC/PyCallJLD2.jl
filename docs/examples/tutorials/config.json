@@ -1,4 +1,4 @@
 {
     "title": "Tutorials",
-    "description": "These examples demonstrate some low-level usage of the Julia programming language and subroutines of the CFAR project itself."
+    "description": "These practical examples demonstrate how to use the `PyCallJLD2.jl` package in various contexts."
 }

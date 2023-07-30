@@ -4,9 +4,7 @@ DocTestSetup = quote
 end
 ```
 
-```@raw html
-<img src="assets/logo.png" width="300">
-```
+![header](assets/downloads/header.png)
 
 # PyCallJLD2.jl
 
