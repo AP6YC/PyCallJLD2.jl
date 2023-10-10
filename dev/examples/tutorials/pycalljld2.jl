@@ -23,4 +23,3 @@ models = JLD2.load(model_file, "mods")
 rm(model_file)
 
 # This file was generated using Literate.jl, https://github.com/fredrikekre/Literate.jl
-

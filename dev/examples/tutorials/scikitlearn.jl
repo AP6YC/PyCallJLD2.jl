@@ -41,4 +41,3 @@ score_1 == score_2
 rm(model_file)
 
 # This file was generated using Literate.jl, https://github.com/fredrikekre/Literate.jl
-
