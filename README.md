@@ -4,10 +4,30 @@ This package is to [JLD2][jld2] what [PyCallJLD][pycalljld] is to [JLD][jld], im
 
 Please see the official [documentation][docs-dev-url] for usage and contribution guidelines.
 
-| **Documentation** | **Coverage** | **CI Status** |
-|:-----------------:|:------------:|:-------------:|
-| [![Dev][docs-dev-img]][docs-dev-url] | [![Codecov][codecov-img]][codecov-url] | [![CI Status][ci-img]][ci-url] |
-| [![Stable][docs-stable-img]][docs-stable-url] | [![Coveralls][coveralls-img]][coveralls-url] | [![Documentation][doc-status-img]][doc-status-url] |
+| **Documentation** | **Coverage** | **CI Status** | **Releases** |
+|:-----------------:|:------------:|:-------------:|:-----------:|
+| [![Dev][docs-dev-img]][docs-dev-url] | [![Codecov][codecov-img]][codecov-url] | [![CI Status][ci-img]][ci-url] | [![Zenodo][zenodo-img]][zenodo-url] |
+| [![Stable][docs-stable-img]][docs-stable-url] | [![Coveralls][coveralls-img]][coveralls-url] | [![Documentation][doc-status-img]][doc-status-url] | [![version][version-img]][version-url] |
+| **Dependents** | **Issues** | **JuliaHub Status** | **Downloads** |
+| [![deps][deps-img]][deps-url] | [![GitHubIssues][issues-img]][issues-url] | [![JuliaHub][pkgeval-img]][pkgeval-url] | [![Downloads][downloads-img]][downloads-url] |
+
+[version-img]: https://juliahub.com/docs/General/PyCallJLD2/stable/version.svg
+[version-url]: https://juliahub.com/ui/Packages/General/PyCallJLD2
+
+[deps-img]: https://juliahub.com/docs/General/PyCallJLD2/stable/deps.svg
+[deps-url]: https://juliahub.com/ui/Packages/General/PyCallJLD2?t=2
+
+[downloads-img]: https://shields.io/endpoint?url=https://pkgs.genieframework.com/api/v1/badge/PyCallJLD2
+[downloads-url]: https://pkgs.genieframework.com?packages=PyCallJLD2
+
+[issues-img]: https://img.shields.io/github/issues/AP6YC/PyCallJLD2.jl
+[issues-url]: https://github.com/AP6YC/PyCallJLD2.jl/issues
+
+[zenodo-img]: https://zenodo.org/badge/DOI/10.5281/zenodo.8333905.svg
+[zenodo-url]: https://doi.org/10.5281/zenodo.8333905
+
+[pkgeval-img]: https://juliahub.com/docs/PyCallJLD2/pkgeval.svg
+[pkgeval-url]: https://juliahub.com/ui/Packages/PyCallJLD2
 
 [docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
 [docs-stable-url]: https://AP6YC.github.io/PyCallJLD2.jl/stable
