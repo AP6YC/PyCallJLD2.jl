@@ -12,7 +12,7 @@ This file loads common utilities and aggregates all other unit tests files.
 
 ## Load the modules into the current context
 using
-    Pkg,        # for rebuilding PyCall
+    # Pkg,        # for rebuilding PyCall
     PyCall,     # for PyObjects
     JLD2,       # for saving and loading
     PyCallJLD2  # this package
@@ -30,8 +30,8 @@ using
 # -----------------------------------------------------------------------------
 
 # Build the PyCall environment for all tests
-ENV["PYTHON"] = ""
-Pkg.build("PyCall")
+# ENV["PYTHON"] = ""
+# Pkg.build("PyCall")
 
 # Init the Python module the way that it would be loaded and stored in a Julia module
 const lm = PyNULL()
