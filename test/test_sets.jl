@@ -35,7 +35,8 @@ using
 
 # Init the Python module the way that it would be loaded and stored in a Julia module
 const lm = PyNULL()
-copy!(lm, pyimport_conda("sklearn.linear_model", "sklearn"))
+# copy!(lm, pyimport_conda("sklearn.linear_model", "sklearn"))
+copy!(lm, pyimport_conda("sklearn.linear_model", "scikit-learn"))
 
 @testset "PyCall Save and Load" begin
     # Create some PyObjects
