@@ -2,7 +2,7 @@ name = "PyCallJLD2"
 uuid = "07b0ad8c-101f-43fe-82b6-eff101a491e1"
 authors = ["Sasha Petrenko <sap625@mst.edu>"]
 description = "A Julia package for saving and loading PyCall.PyObjects with JLD2."
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
